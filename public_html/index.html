@@ -9,15 +9,15 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script type="text/javascript" src="dragndrop.js"></script>
+        <script type="text/javascript" src="webstorage.js"></script>
     </head>
     <body>
-        <img id="bin" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRWMKb4cIrVtiyjgMTYWJu-gFJyH3lGJ_FPswKxVjaJ2DrePbCsw">
-        <img id="Red" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQBsVWHakEf8tBLUHVbaoeZtF1HFvWVcxiaKRZ_-01TKv2njm_2Ww">
-        <img id="Yellow" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSt3E-iVQ3HBvezeLDAoQm73uucuIzRBuSNAGXaUjLu_RbOhm2w">
-        <img id="Green" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQRylHy-3cud32M_R5Pczx4b_zJCYilmTZrIFMe6dRk5hYRvyz2UQ">
-        <fieldset><legend>Folders Dropped:</legend>
-            <ol id="msg"></ol>
+        <fieldset>
+            <legend id="leg">Enter Name</legend>
+            <input id="username" type="text">
+            <button id ="store">Store Name</button>
+            <button id ="recall">Recall Name</button>
+            <button id ="remove">Remove Name</button>
         </fieldset>
     </body>
 </html>
